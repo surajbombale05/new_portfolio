@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suraj Bombale</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-gray-900 shadow z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-green-400 text-2xl font-bold">SB</h1>
+      <div class="space-x-6 hidden md:flex">
+        <a href="#about" class="hover:text-green-400">About</a>
+        <a href="#experience" class="hover:text-green-400">Experience</a>
+        <a href="#projects" class="hover:text-green-400">Projects</a>
+        <a href="#skills" class="hover:text-green-400">Skills</a>
+        <a href="#freelance" class="hover:text-green-400">Freelancing</a>
+        <a href="#awards" class="hover:text-green-400">Awards</a>
+        <a href="#contact" class="hover:text-green-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex items-center justify-center text-center pt-20">
+    <div>
+      <p class="text-green-400 text-lg">Hi, my name is</p>
+      <h1 class="text-4xl md:text-6xl font-bold mt-2">Suraj Bombale</h1>
+      <h2 class="text-2xl md:text-4xl text-gray-400 mt-4">I build full-stack solutions for web and mobile.</h2>
+      <p class="text-gray-400 max-w-xl mx-auto mt-4">
+        I'm a passionate software developer & freelancer focused on creating scalable, user-centric applications using modern technologies.
+      </p>
+      <a href="#projects" class="mt-6 inline-block px-6 py-2 border border-green-400 text-green-400 rounded hover:bg-green-400 hover:text-black transition">Check out my work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 max-w-4xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-green-400 mb-6">About Me</h2>
+    <p class="text-gray-300 mb-4">
+      I'm Suraj Bombale, a software developer based in Sangamner, Maharashtra. With over 2 years of professional experience, I specialize in developing high-quality web and mobile applications. I enjoy crafting powerful digital tools that solve real-world problems — from managing employee shifts to securing institutional data.
+    </p>
+    <p class="text-gray-300">
+      My core strengths include Flutter for mobile development, Spring Boot and Node.js for backend APIs, and modern frontend frameworks like React and Angular. I’ve worked with cloud services like AWS, and I enjoy CI/CD automation and writing clean, testable code. Whether I’m contributing to large systems or building solo, I’m always learning and refining my craft.
+    </p>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-20 bg-gray-800 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-green-400 mb-6">Experience</h2>
+      <ul class="space-y-6">
+        <li class="border-l-4 border-green-400 pl-4">
+          <h3 class="text-xl font-semibold">Software Developer – SunraSoft Tech</h3>
+          <p class="text-gray-300">Oct 2024 – Present | Pune, India</p>
+          <p class="text-gray-400 mt-2">
+            SunraSoft Tech is a leading development agency known for its impactful web, mobile, and game solutions. I worked on internal tools and public platforms using technologies like Flutter, Node.js, and SQL.
+          </p>
+          <ul class="list-disc ml-6 text-gray-400 mt-2">
+            <li>Designed and implemented full-stack features across multiple applications.</li>
+            <li>Led backend development for DChart, improving reliability and performance.</li>
+            <li>Deployed scalable apps via DigitalOcean and automated CI/CD flows.</li>
+          </ul>
+        </li>
+        <li class="border-l-4 border-green-400 pl-4">
+          <h3 class="text-xl font-semibold">Junior Software Developer – THE BAAP COMPANY</h3>
+          <p class="text-gray-300">Jun 2022 – Oct 2024 | Sangamner</p>
+          <p class="text-gray-400 mt-2">
+            As part of The Baap Company’s rural empowerment mission, I helped build and deploy several mobile and web platforms that enabled communities through digital innovation.
+          </p>
+          <ul class="list-disc ml-6 text-gray-400 mt-2">
+            <li>Worked on apps like Baap App, Shift Management, Event Management, and Docuvault.</li>
+            <li>Built and maintained REST APIs using Spring Boot and Node.js.</li>
+            <li>Improved app performance and user experience across platforms.</li>
+          </ul>
+        </li>
+        <li class="border-l-4 border-green-400 pl-4">
+          <h3 class="text-xl font-semibold">Software Developer Intern – CodePro Technology</h3>
+          <p class="text-gray-300">Sep 2023 – Nov 2023 | Sinnar</p>
+          <p class="text-gray-400 mt-2">
+            As a hands-on intern, I explored full-stack development while working on live client projects. I gained real-world experience in ReactJS, Flutter, and backend optimization.
+          </p>
+          <ul class="list-disc ml-6 text-gray-400 mt-2">
+            <li>Contributed to TechMix, a collaborative web app with real-time features.</li>
+            <li>Enhanced backend performance of Node.js APIs by 30% through optimization.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 max-w-5xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-green-400 mb-8">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-gray-800 p-6 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold">Shift Management</h3>
+        <p class="text-gray-400 mt-2">A powerful app that helps employees manage their shifts with features like swapping, offering, and real-time scheduling. Built using Flutter and Firebase with a Node.js backend.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded shadow">
+        <h3 class="text-xl font-semibold">Docuvault</h3>
+        <p class="text-gray-400 mt-2">A secure document management app allowing users to upload and retrieve documents digitally. Ideal for schools, institutes, and official use.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded shadow">
+        <h3 class="text-xl font-semibold">D-Chart</h3>
+        <p class="text-gray-400 mt-2">Backend system for predicting Matka results with high accuracy. Built using Node.js, with a focus on uptime and reliability.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded shadow">
+        <h3 class="text-xl font-semibold">ERP App</h3>
+        <p class="text-gray-400 mt-2">School ERP system with modules like hostel, communication, library, and fees. Helped automate administration for better efficiency.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded shadow">
+        <h3 class="text-xl font-semibold">Baap Dairy</h3>
+        <p class="text-gray-400 mt-2">Dairy record app that helps farmers and dairy owners manage milk records, prices, and transactions transparently and digitally.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded shadow">
+        <h3 class="text-xl font-semibold">Event Management</h3>
+        <p class="text-gray-400 mt-2">Visitor management system developed for Krishi Vidyan Kendra to generate and track gate passes digitally.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-20 bg-gray-800 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-green-400 mb-8">Skills</h2>
+      <div class="flex flex-wrap justify-center gap-3">
+        <span class="bg-gray-700 text-green-300 px-4 py-2 rounded-full hover:bg-green-400 hover:text-black transition">Flutter (GetX & BLoC)</span>
+        <span class="bg-gray-700 text-green-300 px-4 py-2 rounded-full hover:bg-green-400 hover:text-black transition">Java (Spring Boot)</span>
+        <span class="bg-gray-700 text-green-300 px-4 py-2 rounded-full hover:bg-green-400 hover:text-black transition">Node.js (Express/Fastify)</span>
+        <span class="bg-gray-700 text-green-300 px-4 py-2 rounded-full hover:bg-green-400 hover:text-black transition">ReactJS</span>
+        <span class="bg-gray-700 text-green-300 px-4 py-2 rounded-full hover:bg-green-400 hover:text-black transition">Angular</span>
+        <span class="bg-gray-700 text-green-300 px-4 py-2 rounded-full hover:bg-green-400 hover:text-black transition">MongoDB</span>
+        <span class="bg-gray-700 text-green-300 px-4 py-2 rounded-full hover:bg-green-400 hover:text-black transition">SQL</span>
+        <span class="bg-gray-700 text-green-300 px-4 py-2 rounded-full hover:bg-green-400 hover:text-black transition">AWS</span>
+        <span class="bg-gray-700 text-green-300 px-4 py-2 rounded-full hover:bg-green-400 hover:text-black transition">REST APIs</span>
+        <span class="bg-gray-700 text-green-300 px-4 py-2 rounded-full hover:bg-green-400 hover:text-black transition">Git/GitHub</span>
+        <span class="bg-gray-700 text-green-300 px-4 py-2 rounded-full hover:bg-green-400 hover:text-black transition">CI/CD</span>
+        <span class="bg-gray-700 text-green-300 px-4 py-2 rounded-full hover:bg-green-400 hover:text-black transition">Agile / Scrum</span>
+      </div>
+    </div>
+  </section>
+<!-- Freelancing -->
+<section id="freelance" class="py-20 px-4 bg-gray-900">
+  <div class="max-w-3xl mx-auto text-center bg-gray-800 rounded-xl p-10 shadow-xl border border-green-500">
+    <!-- Icon -->
+    <div class="mb-4">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 text-green-400 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6M9 16V8h6v8zM4 7a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V7z" />
+      </svg>
+    </div>
+    <!-- Heading -->
+    <h2 class="text-3xl font-bold text-green-400 mb-4">Available for Freelance</h2>
+    <!-- Description -->
+    <p class="text-gray-300 mb-4">
+      Looking for a developer who delivers clean code, performance, and a great user experience? I'm open to freelance projects and collaborations in Flutter, Node.js, Spring Boot, React, and more. Let’s turn your ideas into fully functional products!
+    </p>
+    <!-- Contact Info -->
+    <p class="text-gray-400 mb-6 leading-relaxed">
+      📧 <a href="mailto:surajbombale59@gmail.com" class="hover:text-green-400">surajbombale59@gmail.com</a><br />
+      📞 <a href="tel:+917447769553" class="hover:text-green-400">+91 7447769553</a>
+    </p>
+    <!-- Button -->
+    <a href="mailto:surajbombale59@gmail.com" class="inline-block px-6 py-3 border border-green-400 text-green-400 rounded-full hover:bg-green-400 hover:text-black transition font-semibold">
+      Hire Me Now 🚀
+    </a>
+  </div>
+</section>
+
+
+<!-- Awards -->
+<section id="awards" class="py-20 bg-gray-900 px-4">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold text-green-400 text-center mb-10">Awards & Recognition</h2>
+    <div class="grid gap-6 md:grid-cols-2">
+      <div class="bg-gray-800 border border-green-400 rounded-lg p-6 shadow hover:shadow-lg transition">
+        <div class="flex items-center mb-4">
+          <svg class="w-8 h-8 text-green-400 mr-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 14l2-2 4 4m6-5a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+          <h3 class="text-xl font-semibold text-white">Ideal Student</h3>
+        </div>
+        <p class="text-gray-300">
+          Recognized as the Ideal Student in 10th grade for academic performance, discipline, and strong leadership qualities.
+        </p>
+      </div>
+      <div class="bg-gray-800 border border-green-400 rounded-lg p-6 shadow hover:shadow-lg transition">
+        <div class="flex items-center mb-4">
+          <svg class="w-8 h-8 text-green-400 mr-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+          </svg>
+          <h3 class="text-xl font-semibold text-white">Star of the BAAP Company</h3>
+        </div>
+        <p class="text-gray-300">
+          Awarded for outstanding contributions and consistent dedication to multiple live projects at THE BAAP COMPANY.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Get In Touch -->
+<section id="contact" class="py-20 px-4 bg-gray-900">
+  <div class="max-w-3xl mx-auto text-center">
+    <h2 class="text-4xl font-bold text-green-400 mb-4">Get In Touch</h2>
+    <p class="text-gray-300 mb-8">
+      Whether you have an idea, a project, or just want to say hello — I’m always open to connecting! Let’s turn your vision into reality together.
+    </p>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md border border-green-400 inline-block">
+      <p class="text-gray-400 mb-2">📧 <span class="text-white">surajbombale59@gmail.com</span></p>
+      <p class="text-gray-400 mb-4">📞 <span class="text-white">+91 7447769553</span></p>
+      <a href="mailto:surajbombale59@gmail.com" class="inline-block px-6 py-2 border border-green-400 text-green-400 rounded-full hover:bg-green-400 hover:text-black transition">
+        Say Hello 👋
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-center py-8 text-gray-400">
+  <div class="max-w-6xl mx-auto px-4">
+    <p class="text-green-400 text-xl font-semibold mb-2">Suraj Bombale</p>
+    <p class="text-gray-400 text-sm mb-4">© 2025 All rights reserved..</p>
+    <div class="flex justify-center space-x-6">
+      <a href="mailto:surajbombale59@gmail.com" class="hover:text-green-400 transition">📧 Email</a>
+      <a href="tel:+917447769553" class="hover:text-green-400 transition">📞 Call</a>
+      <a href="https://www.linkedin.com/in/suraj-bombale/" target="_blank" class="hover:text-green-400 transition">🔗 LinkedIn</a>
+    </div>
+  </div>
+</footer>
